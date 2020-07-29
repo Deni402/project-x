@@ -59,8 +59,8 @@ function getOperand(operand) {
 
 // clear the screen
 function clearScreen() {
-  document.getElementById('input').value = ""
-  document.getElementById('answer').value = ""
+  document.getElementById('input').value = ''
+  document.getElementById('answer').value = ''
 }
 
 // backspace function
