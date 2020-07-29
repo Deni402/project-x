@@ -35,6 +35,12 @@ function getNumber(num) {
   }
 }
 
+// clear the screen
+function clearScreen() {
+  document.getElementById('input').value = ""
+  document.getElementById('answer').value = ""
+}
+
 
 
 
