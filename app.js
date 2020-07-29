@@ -69,7 +69,7 @@ function backspace() {
   var x = inputVar.value
   if (x.length > 0) {
     x = x.substring(0, x.length - 1)
-    inputVar.value
+    inputVar.value = x
   }
 }
 
