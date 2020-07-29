@@ -63,6 +63,15 @@ function clearScreen() {
   document.getElementById('answer').value = ""
 }
 
+// backspace function
+function backspace() {
+  var inputVar = document.getElementById('input')
+  var x = inputVar.value
+  if (x.length > 0) {
+    x = x.substring(0, x.length - 1)
+    inputVar.value
+  }
+}
 
 
 
