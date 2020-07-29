@@ -35,6 +35,28 @@ function getNumber(num) {
   }
 }
 
+// mathematical operation sigh
+function getOperand(operand) {
+  var inputVar = document.getElementById('input')
+  switch (operand){
+    case '+': 
+      inputVar.value += '+'
+      break
+    case '-': 
+      inputVar.value += '-'
+      break
+    case 'x': 
+      inputVar.value += '*'
+      break
+    case '/': 
+      inputVar.value += '/'
+      break
+    case '+/-': 
+      inputVar.value += '-' + inputVar.value
+  }
+}
+
+
 // clear the screen
 function clearScreen() {
   document.getElementById('input').value = ""
