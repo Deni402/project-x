@@ -76,7 +76,7 @@ function backspace() {
 function compute() {
   var inputVar = document.getElementById('input')
   var ans = Math.floor(+eval(inputVar.value))
-  document.getElementById('answer').value = '=' + ans
+  document.getElementById('answer').value = ans
 }
 
 
