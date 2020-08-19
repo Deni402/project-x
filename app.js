@@ -79,6 +79,17 @@ function compute() {
   document.getElementById('answer').value = ans
 }
 
+var i = 0
+function brackets() {
+  var inputVar = document.getElementById('input')
+  if (i === 0) {
+    inputVar.value += '('
+    i = 1
+  } else if (i === 1) {
+    inputVar.value += ')'
+    i = 0
+  }
+}
 
 
 
