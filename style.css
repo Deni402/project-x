@@ -1,7 +1,11 @@
+.body{
+  background-color: rgb(240, 224, 200);
+}
+
 table {
   width: 310px;
   margin: 50px auto;
-  background: #2265e2;
+  background: #816045;
   border: none;
   border-radius: 10px;
   padding: 0px 20px 20px;
